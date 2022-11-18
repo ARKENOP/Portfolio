@@ -1,0 +1,424 @@
+body{
+    font-family: sans-serif;
+    background-color: black;
+}
+
+header{
+    text-align:center;
+}
+
+a{
+    color: #0f1ef0;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+nav img{
+    height: 50px;
+    width: 150px;
+    align-items: center;
+    margin-left: 15px;
+
+}
+
+.wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: justify;
+}
+
+nav{
+    margin-right: 100px;
+}
+
+.nav-button button{
+    padding: 10px 10px 10px 10px;
+    background-color: #0f1ef0;
+    color: black;
+    border: solid 1px #0f1ef0;
+    border-radius: 8px;
+    margin-right: 75px;
+}
+
+.nav-button button:hover{
+    background-color: black;
+    color:#0f1ef0;
+    border: solid 1px black;
+    cursor: pointer;
+}
+
+.nav-item-home{
+    margin-top: 5px;
+    display: flex;
+}
+
+.nav-item-project{
+    margin-top: 5px;
+    display: flex;
+}
+
+.nav-item-about{
+    margin-top: 5px;
+    display: flex;
+}
+
+.nav-item-contact{
+    margin-top: 5px;
+    display: flex;
+}
+
+img#right-img{
+    height: 400px;
+    float: right;
+    margin-top: 85px;
+    margin-right: 75px;
+    border-radius: 20px;
+}
+
+img#left-img{
+    height: 300px;
+    float: right;
+    margin-top: 75px;
+    margin-right: 200px;
+    border-radius: 20px;
+}
+
+
+div.left{
+    float: left;
+    width:800px;
+    color: white;
+    font-size: 25px;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+
+.footer{
+    margin-top: 40px;
+    padding: 0.5% 0;
+}
+
+div.social-icons{
+    text-align: center;
+    justify-content: space-around;
+    display: flex;
+}    
+
+
+/* FORMULAIRE DE CONTACT*/
+input[type=text], textarea, input[type=email]{
+width: 100%;
+padding: 12px;
+border: 1px solid #ccc;
+border-radius: 4px;
+box-sizing: border-box;
+margin-top: 6px;
+margin-bottom: 16px;
+margin-right: 0px;
+margin-left: 0px;
+resize: vertical;
+}
+
+label{
+margin-right: 0px;
+margin-left: 0px;
+width: 100%;
+}
+  
+input[type=submit] {
+background-color: #0f1ef0;
+color: white;
+padding: 12px 20px;
+border: none;
+border-radius: 4px;
+cursor: pointer;
+}
+  
+input[type=submit]:hover {
+background-color: #1255a2;
+}
+  
+.container {
+box-sizing : border-box;
+border-radius:5px;
+background-color:grey;
+padding:20px;
+width: 100%;
+max-width: 440px;
+margin: 50px auto;
+}
+/*--------------------*/
+
+/*MY GARDEN & LBR*/
+img#right-img-project{
+    height: 300px;
+    float: right;
+    margin-top: 145px;
+    margin-right: 20px;
+    border-radius: 20px;
+}
+
+img#left-img-project{
+    height: 300px;
+    float: right;
+    margin-top: 85px;
+    margin-right: 265px;
+    border-radius: 20px;
+}
+
+.title-rlb h1{
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.title-rlb h2{
+    color: white;
+    float: left;
+    margin-left: 50px; 
+    width:700px; 
+}
+
+.title-rlb h3{
+    color: white;
+    float: left;
+    margin-left: 50px; 
+    width:700px;
+}
+
+.img-rlb h2{
+    color: white;
+    float: right;
+    margin-right: 50px; 
+    width: 450px;
+    margin-top: -350px;
+} 
+img#maquette-rlb{
+    float: right;
+    height: 300px;
+    margin-top: -300px;
+}
+
+img#maquette-mygarden{
+    float: right;
+    height: 450px;
+    margin-right: 230px;
+    margin-top: -300px;
+}
+/*-------------------------*/
+
+/* SKILLS BAR*/
+p{
+    font-size: 15px;
+}
+
+* {box-sizing:border-box}
+
+.container-skills{
+    width: 50%;
+    margin-left: 0px;
+}
+
+.skills {
+    text-align: right; 
+    font-size: 17px;
+    padding-top: 0px;
+    padding-right: 10px; 
+    padding-bottom: 10px;
+    color: white; 
+}
+
+.html {
+    width: 40%;
+    height: 20px; 
+    border-radius: 5px;
+    background-color: #04AA6D;
+}
+.css {
+    width: 35%;
+    height: 20px;
+    border-radius: 5px; 
+    background-color: #2196F3;
+} 
+.js {
+    width: 65%;
+    height: 20px;
+    border-radius: 5px; 
+    background-color: #f44336;
+} 
+.php {
+    width: 15%;
+    height: 20px;
+    border-radius: 5px; 
+    background-color: palevioletred;
+} 
+/*--------------------*/
+
+.about-button button{
+    padding: 30px 30px 30px 30px;
+    background-color: #0f1ef0;
+    color: black;
+    border: solid 1px #0f1ef0;
+    border-radius: 8px;
+    margin-left: 600px;
+    margin-top: 250px;
+}
+
+.about-button button:hover{
+    background-color: black;
+    color:#0f1ef0;
+    border: solid 1px black;
+    cursor: pointer;
+}
+
+/*RESPONSIVE*/
+@media (max-width: 1200px){
+    img#right-img-project{
+        margin-top: 135px;
+        margin-left: -100px;
+        height: 300px;
+    }
+    .button-button22{
+        margin-left: -100px;
+    }
+    .about-button button{
+        margin-left: 500px;
+        margin-top: 250px;
+    }
+    .img-rlb h2{
+        margin-top: -350px;
+        margin-right: -100px;
+    }
+    img#maquette-rlb{
+        margin-top: -300px;
+        margin-right: 15px;
+        height: 200px;
+    }
+    img#maquette-mygarden{
+        margin-top: -300px;
+        margin-right: 80px;
+    }
+}
+  
+@media (max-width: 768px) {
+    img#right-img{
+        height: 250px;
+    }
+    nav{
+        margin-right: 25px;
+    }
+    img#left-img-project{
+        margin-top: 50px;
+        height: 200px;
+    }
+    img#right-img-project{
+        margin-top: 100px;
+        margin-left: -180px;
+        height: 200px;
+    }
+    img#maquette-rlb{
+        margin-top: 20px;
+        margin-right: 350px;
+    }
+    .img-rlb h2{
+        margin-top: 5px;
+        margin-right: 250px;
+    }
+    img#maquette-mygarden{
+        margin-top: 15px;
+        margin-right: 425px;
+    }
+    .about-button button{
+        margin-left: 300px;
+        margin-top: 200px;
+    }
+    .button-button22{
+        margin-left: -175px;
+    }
+}
+
+@media (max-width: 500px){
+    img#right-img{
+        height: 200px;
+        margin-top: -350px;
+        margin-left: 250px;
+    }
+    div.left{
+        width: 250px;
+        text-align: left;
+    }
+    .html{
+        width: 70%;
+    }
+    .css{
+        width: 65%;
+    }
+    .php{
+        width: 45%;
+    }
+    .js{
+        width: 95%;
+    }
+    div.wrapper{
+        display: grid;
+    }
+    nav.wrapper{
+    overflow: hidden;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    background-color: black;
+    }
+    a{
+    float: left;
+    display: block;
+    color: #0f1ef0;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    }
+    nav a:hover{
+    background-color: #ddd;
+    }
+    nav img{
+    display: none;
+    }
+    .nav-button button{
+        margin-left: -20px;
+    }
+    .about-button button{
+        margin-left: 150px;
+        margin-top: 100px;
+    }
+    img#left-img-project{
+        margin-top: 50px;
+        height: 175px;
+        margin-right: -60px;
+    }
+    img#right-img-project{
+        margin-top: 50px;
+        height: 175px;
+        margin-left: 17px;
+    }
+    .img-rlb h2{
+        margin-top: 25px;
+        margin-right: -15px;
+    }
+    img#maquette-rlb{
+        height: 150px;
+        margin-top: 15px;
+        margin-right: 180px;
+    }
+    img#maquette-mygarden{
+        margin-right: 170px;
+    }
+    .title-rlb h3{
+        width:400px;
+    }
+    .title-rlb h2{
+        width:350px;
+    }
+}
